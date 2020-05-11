@@ -1,0 +1,15 @@
+{% extends 'lib/base_generic.html' %}
+
+{% block content %}
+
+<h1>Welcome To The Local Library!</h1>
+<hr>
+<h3>There are following records :</h3>
+
+<ul>
+  <li>Books : {{ books }}</li>
+  <li>Authors : {{ authors }}</li>
+  <li>Genres : {{ genres }}</li>
+</ul>
+
+{% endblock %}
